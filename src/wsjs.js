@@ -1,3 +1,12 @@
+/**
+ * @author Alexander Eberle Renzulli alexander171294@gmail.com
+ * @description Use wsjs para manipular clientes sockets de manera simple y rápida en javascript
+ * @version 1.0.0
+ * @autor www.programador.in
+ * @licencia Creative Commons
+ * Esta obra está licenciada bajo la Licencia Creative Commons Atribución-NoComercial 4.0 Internacional. Para ver una copia de esta licencia, visita http://creativecommons.org/licenses/by-nc/4.0/.
+ */
+
 function wsjs(server, port, jsonparse = true)
 {
     this.server = server;
